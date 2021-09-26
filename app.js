@@ -26,14 +26,14 @@ $('#squareGenerator').on('click', function() {
 
 
     console.log(x + " " + n + " " + m);
-    let width = m*100+'px';
-    let height = n*100+'px';
+    let width = n*100+'px';
+    let height = m*100+'px';
     $('#squareContainer').css({
         'width': width,
         'height': height});
 });
 
-$('#squareContainer').on('click', '.square', function() {
+$('#squareContainer').on('mousedown', '.square', function() {
     $(this).toggleClass('red blue')
 });
 
