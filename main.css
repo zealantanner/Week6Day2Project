@@ -30,15 +30,16 @@ button{
 }
 .square{
     list-style-type: none;
-    height: 98px;
-    width: 98px;
-    border: 1px solid black;
-    cursor: pointer;
+    height: 100px;
+    width: 100px;
+    /* border: 1px solid black; */
 }
 
 .blue{
-    background-color: blue;
+    cursor: wait;
+    background: fixed blue url(windows.jpeg) top center;
 }
 .red{
-    background-color: red;
+    cursor: help;
+    background: fixed red url(apple.jpeg) top center;
 }
