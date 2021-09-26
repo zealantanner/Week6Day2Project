@@ -43,10 +43,10 @@ button{
 
 .blue{
     cursor:vertical-text;
-    background: fixed blue url(windows.jpeg) top center;
+    background: fixed blue url(images/windows.jpeg) top center;
 
 }
 .red{
     cursor: text;
-    background: fixed red url(apple.jpeg) top center;
+    background: fixed red url(images/apple.jpeg) top center;
 }
