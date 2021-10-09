@@ -34,19 +34,19 @@ button{
 }
 .square{
     list-style-type: none;
-    height: 100px;
-    width: 100px;
+    height: 4px;
+    width: 4px;
     /* height: 98px;
     width: 98px;
     border: 1px solid black; */
 }
 
 .blue{
-    cursor:vertical-text;
+    cursor: crosshair;
     background: fixed blue url(images/windows.jpeg) top center;
 
 }
 .red{
-    cursor: text;
+    cursor: crosshair;
     background: fixed red url(images/apple.jpeg) top center;
 }

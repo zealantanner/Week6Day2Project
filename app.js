@@ -49,8 +49,8 @@ $('#squareGenerator').on('click', function() {
     // console.log(`${n} and ${m} are the closest divisors of ${x}!`);
 
     console.log(x + " " + n + " " + m);
-    let width = n*100+'px';
-    let height = m*100+'px';
+    let width = n*2+'px';
+    let height = m*2+'px';
     $('#squareContainer').css({
         'width': width,
         'height': height
@@ -60,11 +60,11 @@ $('#squareGenerator').on('click', function() {
     $('#heightCounter').text("Height: " + m);
 });
 
-if($('#squareContainer').on('click', '.square', function(){
+$('#squareContainer').on('mouseenter', '.square', function(){
    $(this).toggleClass('red blue');
-}));
+});
 
-for(let i = 0; i < 16; i++){
+for(let i = 0; i < 10000; i++){
     let color = (Math.random() < 0.5) ? 'red': 'blue';
     $('#squareContainer').prepend(`<li class="${color} square"></li>`);
 };
