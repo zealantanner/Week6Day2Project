@@ -49,8 +49,8 @@ $('#squareGenerator').on('click', function() {
     // console.log(`${n} and ${m} are the closest divisors of ${x}!`);
 
     console.log(x + " " + n + " " + m);
-    let width = n*2+'px';
-    let height = m*2+'px';
+    let width = n*4+'px';
+    let height = m*4+'px';
     $('#squareContainer').css({
         'width': width,
         'height': height
